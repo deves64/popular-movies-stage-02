@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="movie_poster_desc">Movie Poster Image</string>
+
+    <string name="mark_as_favorite_detail_text">Mark as favorite</string>
+    <string name="marked_as_favorite_detail_text">Marked</string>
+    <string name="thumbnail_detail_content_description">This is a film poster</string>
+
+    <string name="load_movies_by_popularity">Most Popular</string>
+    <string name="load_movies_by_rating">Highest Rated</string>
+    <string name="load_favorites">Favorites</string>
+
+    <string name="original_title_detail">Chappie</string>
+    <string name="release_date_detail">2015</string>
+    <string name="vote_average_detail">8.1/10</string>
+    <string name="overview_detail">
+        In the near future, crime is patrolled by a mechanized police force. When one police droid,
+        Chappie, is stolen and given new programming, he becomes the first robot with the ability to
+        think and feel for himself.
+    </string>
+    <string name="movie_review_author">Dr. X</string>
+    <string name="movie_review_content">This is my review</string>
+
+    <string name="movie_video_name">Video 01</string>
+    <string name="sorted_by">Sorted by: </string>
+
+    <string name="rating_out_of">/10</string>
+
+    <string name="video_caption_detail">Videos:</string>
+    <string name="review_caption_detail">Reviews:</string>
+</resources>
