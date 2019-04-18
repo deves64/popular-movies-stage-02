@@ -64,6 +64,17 @@ public class PaginationScrollListener extends RecyclerView.OnScrollListener {
         int[] lastVisiblePosition = new int[2];
 
 
+        Log.v("getChildCount", "ChildCount: " + Integer.toString(layoutManager.getChildCount()));
+        Log.v("getItemCount", "ItemCount: " + Integer.toString(layoutManager.getItemCount()));
+        Log.v("visibleItemPositions", "FirstVisibleItemPositions01: "
+                + Integer.toString(layoutManager.findFirstVisibleItemPositions(lastVisiblePosition)[0]));
+        Log.v("visibleItemPositions", "FirstVisibleItemPositions02: "
+                + Integer.toString(layoutManager.findFirstVisibleItemPositions(lastVisiblePosition)[1]));
+
+        Log.v("visibleItemPositions", "LastVisibleItemPositions01: "
+                + Integer.toString(layoutManager.findLastVisibleItemPositions(lastVisiblePosition)[0]));
+        Log.v("visibleItemPositions", "LastVisibleItemPositions02: "
+                + Integer.toString(layoutManager.findLastVisibleItemPositions(lastVisiblePosition)[1]));
 
         MovieAdapter movieAdapter = (MovieAdapter) recyclerView.getAdapter();
 
